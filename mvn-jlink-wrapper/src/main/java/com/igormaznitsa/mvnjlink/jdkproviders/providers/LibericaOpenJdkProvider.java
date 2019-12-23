@@ -251,7 +251,7 @@ public class LibericaOpenJdkProvider extends AbstractJdkProvider {
               try{
                 this.releases.add(new Release(fileName, link, mime, size));
               } catch (IllegalArgumentException e){
-               log.warn("Failed to parse file: " + fileName + ". ignoring.);
+               log.warn("Failed to parse file: " + fileName + ". ignoring.");
               }
             } else {
               log.debug("Ignoring because non-unpackable file: " + asset);
