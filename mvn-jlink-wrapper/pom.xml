@@ -4,9 +4,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.igormaznitsa</groupId>
+    <groupId>com.github.warmuuh</groupId>
     <artifactId>mvn-jlink</artifactId>
-    <version>1.0.4</version>
+    <version>master-SNAPSHOT</version>
   </parent>
 
   <artifactId>mvn-jlink-wrapper</artifactId>
