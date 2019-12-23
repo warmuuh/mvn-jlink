@@ -248,7 +248,11 @@ public class LibericaOpenJdkProvider extends AbstractJdkProvider {
 
             if (fileName.endsWith(".zip") || fileName.endsWith(".tar.gz")) {
               final String link = asset.getString("browser_download_url");
-              this.releases.add(new Release(fileName, link, mime, size));
+              try{
+                this.releases.add(new Release(fileName, link, mime, size));
+              } catch (IllegalArgumentException e){
+               log.warn("Failed to parse file: " + fileName + ". ignoring.);
+              }
             } else {
               log.debug("Ignoring because non-unpackable file: " + asset);
             }
