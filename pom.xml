@@ -3,9 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.igormaznitsa</groupId>
+  <groupId>com.github.warmuuh</groupId>
   <artifactId>mvn-jlink</artifactId>
-  <version>1.0.4</version>
+  <version>master-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Maven Jlink plugin</name>
